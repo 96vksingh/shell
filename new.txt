@@ -1,0 +1,4 @@
+./rr
+./directory/gg
+./directory/tt
+./ss

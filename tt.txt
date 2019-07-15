@@ -1,0 +1,2 @@
+diff -s dir1/dd dir2/dd
+

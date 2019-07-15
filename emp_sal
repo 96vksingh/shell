@@ -1,0 +1,12 @@
+#!/usr/bin/
+read -p "enter the basic salary of the employee" sal
+if [ $sal -le ];then
+hra= $((sal/10))
+da = $((9*hra))
+else
+hra= 500
+da = $((sal/100))
+da = $((da*98))
+fi
+gross=sal+hra+da
+echo "gros salary =$gross"
