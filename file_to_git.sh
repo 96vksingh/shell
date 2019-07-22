@@ -36,7 +36,7 @@ do
 	 if [ -z "$rr" ]; then
 		 echo "its null----$i"
 	 else
-		 echo "some data----$i"
+		 #echo "some data----$i"
 		 git add $i
 		 git commit -m "automatic commit"
 		 git push -u origin master
